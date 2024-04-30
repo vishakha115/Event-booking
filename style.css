@@ -1,0 +1,52 @@
+h1{
+  font-family:'Courier New', Courier, monospace;
+}
+
+.event{
+  
+width: 300px;
+height: 250px;
+border-radius: 20px;
+padding-top: 100px;
+padding-left: 50px;
+margin: 20px;
+background-size: cover;
+background-position: center;
+
+}
+
+.event h3{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  color: #FFFFFF;
+font-size: 30px;
+}
+
+.event p{
+color: #FFFFFF;
+font-size: 20px;
+}
+
+.event button{
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  padding: 15px 70px;
+  font-size: 20px;
+}
+
+.event button:hover{
+  background-color: pink;
+  cursor: pointer;
+}
+
+#allEvents{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.event h4 {
+  display: none;
+ background-color: pink;
+ padding: 5px;
+ font-size: 20px;
+}
